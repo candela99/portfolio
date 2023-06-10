@@ -1,0 +1,26 @@
+.nav-enlace {
+    display: inline-block; /*para que se muestren en bloques alineados, para trabajar con FlexBox*/
+    background: slategrey;
+    color: #fff;
+    padding: 10px 30px; /*(arriba, abajo) (izquierda,derecha)*/
+    text-decoration: none; /*sacarle las lineas del texto*/ 
+    margin: 0 0.5px;
+}
+.nav-enlace:hover { /*propiedades cuando el cursor esta sobre cada bloque*/
+    background:rosybrown;
+}
+nav { /*div padre*/ 
+    background: darkslategray;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /*para que se posicionen a la derecha del navbar*/
+}
+
+@media (max-width: 600px) { /*para modificar la vista de 0 a 600px*/
+    nav {
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 0.5px 0;
+    }
+}
