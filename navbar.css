@@ -1,4 +1,6 @@
 .nav-enlace {
+    font-family: 'Kanit', sans-serif;
+    font-size:smaller;
     display: inline-block; /*para que se muestren en bloques alineados, para trabajar con FlexBox*/
     background: slategrey;
     color: #fff;
@@ -9,6 +11,7 @@
 .nav-enlace:hover { /*propiedades cuando el cursor esta sobre cada bloque*/
     background:rosybrown;
 }
+
 nav { /*div padre*/ 
     background: darkslategray;
     padding: 10px;
@@ -34,3 +37,4 @@ nav { /*div padre*/
         display: inline-block; /*para que se muestre el boton de menu*/
     }
 }
+
