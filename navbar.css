@@ -15,6 +15,13 @@ nav { /*div padre*/
     display: flex;
     justify-content: flex-end; /*para que se posicionen a la derecha del navbar*/
 }
+.nav-boton {
+    background:darkslategrey;
+    color: #fff; /*color de letra*/
+    padding: 10 px 0;
+    border: 2px solid #fff;
+    display: none; /*oculta el boton de menu despues de los 600px*/
+}
 
 @media (max-width: 600px) { /*para modificar la vista de 0 a 600px*/
     nav {
@@ -22,5 +29,8 @@ nav { /*div padre*/
     }
     .nav-enlace {
         margin: 0.5px 0;
+    }
+    .nav-boton {
+        display: inline-block; /*para que se muestre el boton de menu*/
     }
 }
