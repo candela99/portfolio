@@ -1,3 +1,5 @@
 function sobreMi() {
-    console.log("Hola");
+}
+
+function desplegarMenu() {
 }

@@ -8,7 +8,8 @@ body {
     min-height: 100vh;
 }
 .sections {
-    justify-content: flex-end;
+    display: flex;
+    min-width: 100vh;
 }
 
 .contenido {
@@ -18,10 +19,18 @@ body {
     text-align: left;
 }
 
-@media(max-width: 600px) {
-    .contenido {
-        margin-top: 50px;
-        margin-left: 50px;
+.lottie {
+    padding-left: 90px;
+    margin-right: 50px;
+}
+
+@media(max-width: 790px) {
+    .sections {
+        flex-direction: column;
+        min-width: 0vh;
+    }
+    .lottie {
+        align-self: center;
     }
 }
 
