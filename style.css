@@ -1,7 +1,39 @@
-washi {
-    position: absolute;
-    width: 299.32px;
-    height: 0px;
+body {
+    background-color: gray;
+    font-family: 'Kanit', sans-serif;
+    font-size:smaller;
+    color: blanchedalmond;
+}
+.sections {
+    justify-content: flex-end;
+}
 
-    transform: rotate(-12.66deg);
+.contenido {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+@media(max-width: 600px) {
+    .contenido {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    color:black;
+    background:gainsboro;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

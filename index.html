@@ -6,17 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <button class="nav-boton" onclick="desplegarMenu()">Menú</button>
-        <a href="#" class="nav-enlace">Sobre mi</a>
-        <a href="#" class="nav-enlace">Tecnologías</a>
-        <a href="#" class="nav-enlace">Certificaciones</a>
-        <a href="#" class="nav-enlace">Contacto</a>
+        <a href="#" class="nav-enlace" onclick="sobreMi()" href="#menu">Sobre mi</a>
+        <a href="#" class="nav-enlace" href="#sobremi">Tecnologías</a>
+        <a href="#" class="nav-enlace" href="#certificaciones">Certificaciones</a>
+        <a href="#" class="nav-enlace" href="#contacto">Contacto</a>
     </nav>
+    
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0" class="contenido">
+        <section id="menu">
+
+        </section>
+        <section class="sections" id="sobremi">
+            <h2>Hola!</h2>
+            <br>
+            <h4>Me llamo Candela González.</h4>
+            <p>Tengo 23 años y hace 3 decidí estudiar programación en la Universidad Nacional de General Sarmiento, en Los Polvorines.</p>
+        </section>
+        <section class="sections" id="tecnologias">
+        </section>
+        <section class="sections" id="certificaciones">
+        </section>
+        
+    </div>
+    <footer>
+        <h5>Contacto</h5>
+        <p>
+            <a href="https://www.linkedin.com/in/candela-gonzalez99/">LinkedIn</a>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
+<script src="js/buttons.js"></script>
 </html>
