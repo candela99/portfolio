@@ -3,6 +3,9 @@ body {
     font-family: 'Kanit', sans-serif;
     font-size:smaller;
     color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .sections {
     justify-content: flex-end;
@@ -32,8 +35,5 @@ footer {
     background:gainsboro;
     width: 100%;
     text-align: center;
-    padding: 1em;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    margin-top: auto;
 }
