@@ -2,28 +2,32 @@
     font-family: 'Kanit', sans-serif;
     font-size:smaller;
     display: inline-block; /*para que se muestren en bloques alineados, para trabajar con FlexBox*/
-    background: slategrey;
+    background: #2b2726;
     color: #fff;
     padding: 10px 30px; /*(arriba, abajo) (izquierda,derecha)*/
     text-decoration: none; /*sacarle las lineas del texto*/ 
     margin: 0 0.5px;
 }
 .nav-enlace:hover { /*propiedades cuando el cursor esta sobre cada bloque*/
-    background:rosybrown;
+    background:#403541;
 }
 
 nav { /*div padre*/ 
-    background: darkslategray;
+    background: #2b2726;
     padding: 10px;
     display: flex;
     justify-content: flex-end; /*para que se posicionen a la derecha del navbar*/
 }
 .nav-boton {
-    background:darkslategrey;
+    background:#2b2726;
     color: #fff; /*color de letra*/
     padding: 10 px 0;
-    border: 2px solid #fff;
+    border: none;
     display: none; /*oculta el boton de menu despues de los 600px*/
+}
+
+.nav-boton:hover {
+    background:#403541;
 }
 
 @media (max-width: 790px) { /*para modificar la vista de 0 a 600px*/
