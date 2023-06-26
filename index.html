@@ -16,34 +16,35 @@
 <body>
     <nav id="navbar">
         <button class="nav-boton" onclick="desplegarMenu()">Menú</button>
-        <a href="#" class="nav-enlace" onclick="sobreMi()" href="#menu">Sobre mi</a>
-        <a href="#" class="nav-enlace" href="#sobremi">Tecnologías</a>
-        <a href="#" class="nav-enlace" href="#certificaciones">Certificaciones</a>
-        <a href="#" class="nav-enlace" href="#contacto">Contacto</a>
+        <a class="nav-enlace" href="#sobremi">Sobre mi</a>
+        <a class="nav-enlace" href="#tecnologias">Tecnologías</a>
+        <a class="nav-enlace" href="#certificaciones">Certificaciones</a>
+        <a class="nav-enlace" href="#contacto">Contacto</a>
     </nav>
-    
-    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0" class="contenido">
-        <section id="menu">
-
-        </section>
-        <section class="sections" id="sobremi">
-            <div>
-                <h2>Hola!</h2>
-                <br>
-                <h4>Me llamo Candela González.</h4>
-                <p>Tengo 23 años y hace 3 decidí estudiar programación en la Universidad Nacional de General Sarmiento, en Los Polvorines.</p>
-            </div>
-            <div class="lottie">
-                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_lS88YC8r3Y.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player> 
-            </div>
-        </section>
-        <section class="sections" id="tecnologias">
-        </section>
-        <section class="sections" id="certificaciones">
-        </section>
-        
+    <div class="presentacion">
+        <h1>Candela Gonzalez</h1>
+        <h3>Backend Developer</h3>
     </div>
-    <footer>
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0" class="contenido">
+            <section id="sobremi">
+                <div>
+                    <h2>Hola!</h2>
+                    <br>
+                    <h4>Me llamo Candela González.</h4>
+                    <p>Tengo 23 años y hace 3 decidí estudiar programación en la Universidad Nacional de General Sarmiento, en Los Polvorines.Estoy anotada en las carreras Licenciatura en Sistemas y Tecnicatura Superior en Informática.</p>
+                </div>
+                <div class="lottie">
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_lS88YC8r3Y.json"  background="transparent"  speed="1"  style="width: 250px; height: 250px;"  loop autoplay></lottie-player> 
+                </div>
+            </section>
+            <section id="tecnologias">
+                <h2>Tecnologías</h2>
+            </section>
+            <section id="certificaciones">
+                <h2>Certificaciones</h2>
+            </section>
+    </div>
+    <footer id="contacto">
         <h5>Contacto</h5>
         <p>
             <a href="https://www.linkedin.com/in/candela-gonzalez99/" target="_blank">LinkedIn</a>
