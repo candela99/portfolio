@@ -19,11 +19,6 @@ section {
     text-align: left;
 }
 
-.lottie {
-    padding-left: 90px;
-    margin-right: 50px;
-}
-
 @media(max-width: 790px) {
     .sections {
         flex-direction: column;
@@ -55,4 +50,37 @@ footer {
     text-align: center;
     padding-top: 35vh;
     min-height: 95vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.lottie {
+    padding-left: 90px;
+    margin-right: 50px;
+}
+
+.div1, .lottie {
+    display: inline-block;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.boton-cv {
+    background:#444444;
+    color: #fff; /*color de letra*/
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.boton-cv:hover {
+    background:#2b2726;
 }
