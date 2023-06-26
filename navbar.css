@@ -34,12 +34,12 @@ nav { /*div padre*/
     nav {
         flex-direction: column;
     }
-    .nav-enlace {
-        margin: 0.5px 0;
+    .ocultar {
         display: none;
     }
     .nav-boton {
         display: inline-block; /*para que se muestre el boton de menu*/
     }
+
 }
 
